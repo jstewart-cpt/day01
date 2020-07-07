@@ -1,1 +1,3 @@
-uid=jstewart@student.wethinkcode.co.za,ou=2020,ou=student,dc=42,dc=cp
+$>sh who_am_i.sh
+uid=jstewart,ou=student,dc=wethinkcode,dc=co,dc=za
+%>
