@@ -1,3 +1,3 @@
-#Find 'PWD'displays the directory, therefore by indicating the addition commands, the shell searhces through all the directory, a well as sub directories, and incdicating the no. of files.
+#Find 'PWD'displays the current directory, therefore by indicating the additional commands, the shell searhces through all the directory, as well as sub directories,displaying the no. of files.
 
 find $PWD \( -type f -or -type d \) -name ".*" -o -print | wc -l
