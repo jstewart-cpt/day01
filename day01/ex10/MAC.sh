@@ -1,3 +1,3 @@
-#'ifconfig displays the MAC's complete network information. By pipelining 'grep "ether"', we only output the Mac's address.
+#'ifconfig' displays the MAC's complete network information, then pipelined 'grep' to filter only the information on 'ether', then I 'cut' the other information out so that only the MAC's address shows.
 
-ifconfig | grep ether
+ifconfig | grep "ether" | cut -c 8-
