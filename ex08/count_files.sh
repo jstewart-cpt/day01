@@ -1,3 +1,3 @@
-#PWD indicates the directory you are currently in,therefore when further define it by the 'type', the shell calculates all the regular files from the parent directory throught to all the sub directories.
+#Using 'ls' lists the files, by add '-R',you enable it to search the  
 
-find $PWD \( -type f -or -type d \) -name ".*" -prune -o -print | wc -l
+find $PWD \( -type f -or -type d \) -name ".*" -o -print | wc -l
