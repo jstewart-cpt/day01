@@ -1,2 +1,4 @@
 #To create the name file, '\' needs to be used before each special character for it to be displayed.
+cat -e
 42
+
