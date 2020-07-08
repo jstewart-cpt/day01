@@ -1,4 +1,2 @@
-#To create the name file, '\' needs to be used before each special character for it to be displayed.
-cat -e
-42
-
+#To create the name file, '\' needs to be used before each special character for it to be displayed.I then used echo to display 42.
+echo "42"
