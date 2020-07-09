@@ -1,16 +1,12 @@
-//The 'void' is used so that nothing is returned.
-void ft_putchar(char c)
-
 void ft_print_alphabet(void)
 {
-    char alphabet_letter_a;
+    char c;
     char alphabet_letter_z;
    // This enables the alphabet to be dislayed.
-    alphabet_letter_a= 'a';
+    c= 'a';
     alphabet_letter_z= 'z';
-    while(alphabet_letter_a<=alphabet_letter_z)
+    while(c<=alphabet_letter_z)
     {
-        ft_putchar(alphabet_letter_a);
-        alphabet_letter_a++;
+        ft_putchar(c);
+        c++;
     }
-}
