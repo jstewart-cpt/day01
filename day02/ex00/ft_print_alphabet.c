@@ -1,15 +1,14 @@
-#include <unistd.h>
-
+//The 'void' is used so that nothing is returned.
 void ft_putchar(char c)
-{
-   write(1, &c, 1);
-}
 
 void ft_print_alphabet(void)
 {
     char alphabet_letter_a;
-    alphabet_letter_a ='a';
-    while(alphabet_letter_a<='z')
+    char alphabet_letter_z;
+   // This enables the alphabet to be dislayed.
+    alphabet_letter_a= 'a';
+    alphabet_letter_z= 'z';
+    while(alphabet_letter_a<=alphabet_letter_z)
     {
         ft_putchar(alphabet_letter_a);
         alphabet_letter_a++;
