@@ -1,12 +1,15 @@
+void ft_putchar(char alphabet_letter_a);
+
 void ft_print_alphabet(void)
 {
-    char c;
+    char alphabet_letter_a;
     char alphabet_letter_z;
    // This enables the alphabet to be dislayed.
-    c= 'a';
+    alphabet_letter_a= 'a';
     alphabet_letter_z= 'z';
-    while(c<=alphabet_letter_z)
+    while(alphabet_letter_a<=alphabet_letter_z)
     {
-        ft_putchar(c);
-        c++;
+        ft_putchar(alphabet_letter_a);
+        alphabet_letter_a++;
     }
+}
